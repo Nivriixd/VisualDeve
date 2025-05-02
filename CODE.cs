@@ -1384,7 +1384,7 @@ namespace VisualDev
                 {
                     o = false;
                     while (!o) {
-                        menuV();
+                        menuE();
                         seleccion = Console.ReadLine();
 
                         if (seleccion.Equals("Julios a Kilojulios", StringComparison.OrdinalIgnoreCase) || seleccion.Equals("1", StringComparison.OrdinalIgnoreCase))
